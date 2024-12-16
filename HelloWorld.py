@@ -1,3 +1,3 @@
 
-print ("hello, world! Vad händer motherfucker?")
+print ("hello, world! Vad händer motherfucker-fucker?")
 
