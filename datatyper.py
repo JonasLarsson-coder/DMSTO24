@@ -55,5 +55,8 @@ print(UPPER)
 
 name = input("Vad heter du? ")
 age = input("Hur gammal är du? ")
+svar = (name) + (age)
+print(f"Hej {name}, du är {age} år gammal!")
 
-print(f"Hej, {name}! Du är {age} år ung.")
+a = "hej"
+print(a)
