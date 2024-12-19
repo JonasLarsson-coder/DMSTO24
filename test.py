@@ -18,3 +18,7 @@ x = 42
 y = str(x)
 print(y)
 print(type(y))
+
+if 5 > 2:
+  print("Five is greater than two!")
+
