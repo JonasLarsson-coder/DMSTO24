@@ -50,3 +50,17 @@ except:
 my_list = ["jonas", "Mary", "Liam", "Lily"] #skapa en list med namn.
 for names in my_list: #skriv ut hela listan
     print(names)
+
+
+for x in "banana":
+    print(x)
+
+a = "hello world"
+print(len(a)) #(len()) räknar antal tecken (ink.mellanslag) en variabel har
+
+txt = "the best things in life is for free"
+print("free" in txt) # print("free" in txt) kollar om free är med i txt. Svaret kommer komma som sant eller falskt.
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
