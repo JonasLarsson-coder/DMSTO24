@@ -14,3 +14,4 @@ def is_odd(x):
     return x % 2 != 0
 print(is_odd(x))
 
+# x är en variabel, i detta fall 3.ßß
