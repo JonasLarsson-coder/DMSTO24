@@ -1,6 +1,3 @@
-
-
-
 numberlist = [20, 10, 30, 40]
 
 from typing import List
