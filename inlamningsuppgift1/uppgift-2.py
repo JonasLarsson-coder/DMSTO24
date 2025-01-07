@@ -12,3 +12,4 @@ def sum_list(numberlist: List [int]) -> int:
     return sum(numberlist)
 print (sum(numberlist))
 # Numberlist innehåller 4 olika tal. Sum() adderar alla tal i listan
+
