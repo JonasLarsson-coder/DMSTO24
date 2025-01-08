@@ -5,7 +5,7 @@ def is_odd(x: int) -> bool:
     """
     Returnerar True om x är udda, annars False.
     """
-    pass # Ta bort denna rad och skriv din kod här
+  
 
 
 

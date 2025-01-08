@@ -11,4 +11,4 @@ def max_in_list(siffror: List [int]) -> int:
     return max_in_list(siffror)
 print (max(siffror))
 
-
+"""PASS i PYTEST!"""

@@ -13,3 +13,5 @@ def sum_list(numbers: List [int]) -> int:
 print (sum(numbers))
 # Numberlist innehåller 4 olika tal. Sum() adderar alla tal i listan
 
+
+"""PASS i PYTEST!"""
