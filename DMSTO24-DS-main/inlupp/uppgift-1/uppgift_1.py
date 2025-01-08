@@ -15,4 +15,3 @@ print(is_odd(x))
 
 
 
-"""PASS i PYTEST!"""
