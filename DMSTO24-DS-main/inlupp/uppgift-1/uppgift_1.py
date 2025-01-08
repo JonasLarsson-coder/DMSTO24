@@ -8,4 +8,8 @@ def is_odd(x: int) -> bool:
     """
     Skriv beskrivning här.
     """
-    return x % 2 == 0
+    return x % 2 != 0
+
+
+
+
