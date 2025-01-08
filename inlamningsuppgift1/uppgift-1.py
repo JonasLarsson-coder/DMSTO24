@@ -17,3 +17,4 @@ def is_odd(x):
 print(is_odd(x))
 
 # x är en variabel, i detta fall 3. Returnerar True vilket betyder att 3 är ett udda tal.
+"""PASS i PYTEST"""
