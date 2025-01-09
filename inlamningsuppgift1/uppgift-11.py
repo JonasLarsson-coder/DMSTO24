@@ -8,3 +8,5 @@ def word_count(text):
     return len(words)
 print(word_count("hur många ord är det i den här meningen?"))
 #Returnerar 9, vilket är antal ord i meningen.
+
+"""PASS i PYTEST!"""

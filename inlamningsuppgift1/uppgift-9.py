@@ -12,3 +12,5 @@ def is_palindrome(string):
 
 print(is_palindrome("Anna"))             # True
 print(is_palindrome("Hello"))            # False
+
+"""PASS i PYTEST!"""

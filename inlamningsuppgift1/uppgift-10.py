@@ -13,3 +13,5 @@ print(celsius_to_fahrenheit(5))
 print(celsius_to_fahrenheit(2))  
 print(celsius_to_fahrenheit(-3))  
 print(celsius_to_fahrenheit(30))
+
+"""PASS i PYTEST!"""
