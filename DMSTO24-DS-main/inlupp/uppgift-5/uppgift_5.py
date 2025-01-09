@@ -13,4 +13,4 @@ def filter_odd(numbers: list[int]) -> list[int]:
     return [num for num in numbers if num % 2 == 0]
 
 
-#num for num är en loop som checkar om talet är jämnt (if num % 2 == 0)
+#num for num är en loop som kollar om talet är jämnt (if num % 2 == 0)
