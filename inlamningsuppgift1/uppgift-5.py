@@ -4,15 +4,15 @@ Filtrera udda tal från en lista
 Beskrivning:
 Skapa en funktion filter_odd(numbers) som returnerar en lista med alla jämna tal från den givna listan."""
 
-
-siffror = [1, 2, 3, 4] #lista med olika tal
-
-from typing import List
-
-def filter_odd(siffror: List [int]) -> int:
-    """returnerar en lista med alla jämna tal från den givna listan"""
-    return siffror % 2 != 0
-print (filter_odd( siffror))
-
+def filter_odd(numbers: list[int]) -> list[int]:
+    """
+    Skriv beskrivning här.
+    """
+    
+def filter_odd(numbers: list[int]) -> list[int]:
+    """
+    Skriv beskrivning här.
+    """
+    return [num for num in numbers if num % 2 == 0]
 
 """PASS i PYTEST"""
