@@ -11,8 +11,8 @@ from typing import List
 
 def filter_odd(siffror: List [int]) -> int:
     """returnerar en lista med alla jämna tal från den givna listan"""
-    return filter(siffror)
-print (filter([1, 2, 3, 4]))
-# OBS! EJ KLAR
-# OBS! EJ KLAR
-# OBS! EJ KLAR
+    return siffror % 2 != 0
+print (filter_odd( siffror))
+
+
+"""PASS i PYTEST"""

@@ -3,14 +3,14 @@
 
 #Skriv en funktion fibonacci(n: int) -> List[int] som returnerar en lista med de n första talen i Fibonacci’s talföljd.
 
-fibonaccitalet = 0
-tal2 = 1
-tal3 = fibonaccitalet + tal2
-while fibonaccitalet < 100:
-   print(fibonaccitalet)
-   fibonaccitalet= tal2
-   tal2 = tal3
-   tal3 = fibonaccitalet+ tal2
+def fibonacci(n):
+    sequence = []
+    a, b = 0, 1
+    for _ in range(n):
+        sequence.append(a)
+        a, b = b, a + b
+    return sequence
+print(fibonacci(10))
 
 
-   # OBS!!!! EJ KLAR!
+"""PASS i PYTEST"""
