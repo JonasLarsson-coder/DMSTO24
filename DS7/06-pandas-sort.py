@@ -20,5 +20,3 @@ print(df)
 print("Sortera på namn:")
 df = df.sort_values(by="Name", ascending=False)
 print(df)
-
-
