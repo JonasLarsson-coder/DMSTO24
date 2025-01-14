@@ -1,0 +1,43 @@
+!
+! Oceanic-Next
+!
+*.foreground:  #c1c5cd
+*.background:  #1b2b34
+*.cursorColor: #c1c5cd
+!
+! Black
+*.color0:      #1b2b34
+*.color8:      #68737d
+!
+! Red
+*.color1:      #db686b
+*.color9:      #db686b
+!
+! Green
+*.color2:      #a2c699
+*.color10:     #a2c699
+!
+! Yellow
+*.color3:      #f2ca73
+*.color11:     #f2ca73
+!
+! Blue
+*.color4:      #7198c8
+*.color12:     #7198c8
+!
+! Magenta
+*.color5:      #bd96c2
+*.color13:     #bd96c2
+!
+! Cyan
+*.color6:      #74b1b2
+*.color14:     #74b1b2
+!
+! White
+*.color7:      #ffffff
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #c1c5cd
+!*.colorIT:
+!*.colorUL:
