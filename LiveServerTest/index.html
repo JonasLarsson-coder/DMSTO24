@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagram med Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        canvas {
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Live Server - Diagramtest</h1>
+    <canvas id="myChart"></canvas>
+
+    <script>
+        // Hämta canvas-elementet
+        const ctx = document.getElementById('myChart').getContext('2d');
+
+        // Skapa ett stapeldiagram
+        const myChart = new Chart(ctx, {
+            type: 'bar', // Diagramtyp: 'bar', 'line', 'pie' etc.
+            data: {
+                labels: ['Januari', 'Februari', 'Mars', 'April', 'Maj'],
+                datasets: [{
+                    label: 'Försäljning (kr)',
+                    data: [12000, 15000, 11000, 18000, 16000], // Exempeldata
+                    backgroundColor: ['red', 'blue', 'green', 'purple', 'orange'],
+                    borderColor: 'black',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
